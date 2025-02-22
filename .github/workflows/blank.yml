@@ -5,7 +5,8 @@ on:
   schedule:
     
 cron: "0 0 * * *"# Allow manual triggering of the workflow
-workflow_dispatch:# Trigger the workflow on pushes to the main branch
+workflow_dispatch:
+# Trigger the workflow on pushes to the main branch
 push:
   branches:
 main
